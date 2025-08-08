@@ -1,0 +1,6 @@
+/* Create H1 to H5 with increasing font size using @for */
+@for $i from 1 through 5 {
+  h#{$i} {
+    font-size: #{$i}px;
+  }
+}
