@@ -1,4 +1,5 @@
-/* create classes from list using each statement */
+/* Create classes from list using @each */
+@use './11-photos' as photos;
 @import '11-photos';
 
 @each $name in $list-names {
