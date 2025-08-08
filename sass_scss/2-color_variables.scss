@@ -1,0 +1,15 @@
+/* assigns a text and a background color to body, p and h2 using variables */
+$main-color: #3D3D3D;
+$background-color: #6D6D6D;
+body {
+    color: $main_color;
+    background-color: $background-color;
+}
+
+p {
+    color: $main_color;
+}
+
+h2 {
+    background-color: $background_color;
+}
