@@ -656,8 +656,6 @@ ul.row {
   transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
-
-
 .card-work .card-title {
   text-align: center;
   margin: 0;
@@ -673,8 +671,8 @@ ul.row {
   transition: opacity var(--transition-duration) var(--transition-cubic-bezier), background-color var(--transition-duration) var(--transition-cubic-bezier);
 }
 
-.card-work .card-title a:focus,
-.card-work .card-title a:hover {
+.card-work:focus .card-title a,
+.card-work:hover .card-title a {
   opacity: 1;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
