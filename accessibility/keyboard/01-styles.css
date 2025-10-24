@@ -671,7 +671,7 @@ ul.row {
   transition: opacity var(--transition-duration) var(--transition-cubic-bezier), background-color var(--transition-duration) var(--transition-cubic-bezier);
 }
 
-.card-work:focus .card-title a,
+.card-work .card-title a:focus,
 .card-work:hover .card-title a {
   opacity: 1;
   height: 100%;
